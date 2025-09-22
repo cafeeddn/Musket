@@ -1,0 +1,12 @@
+name: Musket
+version: '1.0-SNAPSHOT'
+main: org.blog.musket.Musket
+api-version: '1.20'
+commands:
+  musket:
+    description: Give a musket
+    usage: /musket
+    permission: musket.give
+permissions:
+  musket.give:
+    default: op
